@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#695169 ;
+}
+
+/* Section Showcase */
+#showcase{
+    background: url('../img/wp.jpg');
+    height: 600px;
+    padding-top: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.showcase-text {
+    color: #b1c7b3;
+    font-size: 24px;
+    text-align: center;
+}
+.showcase-text h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+strong{
+    color: #270770fd;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+/* Section Navigation */
+.container{
+    display: inline;
+    justify-content: center; 
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    height: 80px;
+}
+.brand{
+    display: flex;
+    text-transform: capitalize;
+    margin: 25px;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.firstName{
+    color: blueviolet;
+    font-weight: bold;
+    font-family: cursive
+}
+.lastName{
+    color:crimson;
+    padding-left: 6px;
+    font-weight: bold;
+    font-style: italic;
+    font-family:monospace;
+}
+.d-flex{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize; 
+}
+.navigation,li{
+    font-size: 25px;
+    list-style-type: none;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 50px;  
+}
+.navigation,li,a{
+    text-decoration: none;
+}
+.navigation,li,a:hover{
+    color: crimson;
+    font-family:fantasy;
+}
+.active{
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.active:hover{
+    color: white;
+}
+
+/* Section Home */
+#home{
+    margin: 150px;
+    color: #ffff;
+}
+#home h1 span {
+    color: #bfbfda;
+    font-family: cursive;
+}
+#home strong{
+    color: #d7ea2c;
+    font-size: 17px;
+}
+#home, text{
+    color: #d7ea2c ;
+    font-family: cursive;
+    font-size: large;
+}
+.img{
+    width: 250px; 
+    border-radius: 15px;
+    float: right;
+} 
+span{
+    color: rgb(148, 172, 101);
+}
+.pallets{
+    color: #030311;
+    line-height: 1.9;
+}
+.see-more{
+    color: #ffff;
+    background-color: #7caf7c;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    /* line-height: 1.9rem; */
+}
+
+/* Section About */
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding-bottom: 6rem;
+    gap: 1.5rem;
+
+}
+.about-img img{
+    padding-bottom: 20%;
+    height: auto;
+    padding-left: 200px;
+    padding-top: 5.5rem;
+}
+.about-text h2{
+    font-size: 30px;
+    color: #ffff;
+}
+.about-text h2 span{
+    color: #b1c07f;
+}
+.about-text h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffff;
+    line-height: 1.7;
+    margin: 10px 0 20px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    padding-right: 150px;
+}
+
+/* Section My Skills */
+.skills h1{
+    /* display: flex; */
+    justify-content: center;
+    color: #ffff;
+    font-size: 30px;
+}
+.skills,technical h2 {
+    text-align: center;
+}
+.skills,technical{
+    font-size: 20px;
+    color: #e2f2e8;
+    margin-bottom: 6rem;
+}
+.skills,text{
+    font-family: cursive;
+    color: #d2c16d;
+    line-height: 3.5rem;
+}
+.logo-language {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+    padding-right: 250px;
+}
+
+/* Section Contact */
+.contact-edit{
+    background-color: rgb(134, 137, 143);      
+    margin-left: 300px;      
+    margin-right: 300px; 
+    margin-bottom: 50px;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+.contact-edit li{
+   color: #090a08;
+   font-family: cursive;
+   font-size: 20px;
+}
+.contact-text {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: x-large;
+    color: #ffff;
+}
+#contact button{
+    background-color: #656a67;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 12px;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#contact button:hover{
+    color: yellow;
+}
+
+/* Section Footer */
+.footer{
+    margin: auto;
+}
+.footer,copyright-text{
+    margin-top: 6rem ;
+    text-align: center;
+    background-color: #393943;
+    padding: 15px;
+    color: #ffff;
+}
+ /* .copyright-text{
+   
+}  */
